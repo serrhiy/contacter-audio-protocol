@@ -65,3 +65,12 @@ But it's also possible for a client to drop a call without reason(Message Type 6
 | 0              | 4              | Length            |
 | 4              | 2              | Message Type      |
 | 6              | N              | Data              |
+
+Format type values:
+```
+  uint8 = 0
+  int8 = 1
+  int16 = 2
+  int32 = 3
+  float32 = 4
+```
